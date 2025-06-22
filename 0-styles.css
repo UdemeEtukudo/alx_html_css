@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Source Sans Prolight';
+  src: url('css_advanced\source-sans-pro\SourceSansPro-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('css_advanced\source-sans-pro\SourceSansPro-Black.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('css_advanced/source-sans-pro/SourceSansPro-BlackIt.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Source Sans Pro bold';
+  src: url('css_advanced/source-sans-pro/SourceSansPro-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('css_advanced/source-sans-pro/SourceSansPro-It.otf') format('opentype');
+  font-style: italic;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 16px; /* 1rem = 16px */
+}
+
+.container{
+   max-width: 100%;
+  margin: 0 auto;         /* center it horizontally */            /* make it responsive */
+  padding: 0 2rem;
+  width: 100%;
+}
+header{
+    display: flex;
+   
+     justify-content: space-between;
+     padding:0 6rem ;
+     
+}
+img{
+    
+   width: 200px;
+  height: auto;
+}
+
+
+ul{
+     display: flex;
+     gap: 2rem;
+     list-style: none;
+}
+li{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+}
+.container{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #f2f2f2;
+  background-image: url('/images/headphones_hero_1.jpg');
+  background-size: cover;
+   background-position: center;
+  height: 100vh;   
+}
+.hero-text{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;  
+}
+.btn
+{
+  color:white;
+  background-color: red;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  border: none;
+}
+.lorem{
+    font-size: 15px;
+    text-align: center;
+    width: 700px;              
+    line-height: 20px;
+}
+.hero-container{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;  
+}
+ .icon {
+      font-size: 30px;
+      color: #444;
+    }
